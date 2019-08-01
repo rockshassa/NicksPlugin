@@ -1,7 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.rockshassa.nicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.rockshassa.nicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>nicksPlugin</name>
-    <js-module name="nicksPlugin" src="www/nicksPlugin.js">
-        <clobbers target="cordova.plugins.nicksPlugin" />
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/rockshassa/nicksPlugin.git</repo>
+    <issue>https://github.com/rockshassa/nicksPlugin</issue>
+
+    <!-- ios -->
+    <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+        <clobbers target="nicksPlugin" />
     </js-module>
+    <config-file target="config.xml" parent="/*">
+        <feature name="nicksPlugin">
+            <param name="ios-package" value="nicksPlugin" onload="true" />
+        </feature>
+    </config-file>
+    <header-file src="src/ios/NGNicksPlugin.h" />
+    <source-file src="src/ios/NGNicksPlugin.m" />
 </plugin>
