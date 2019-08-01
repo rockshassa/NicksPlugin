@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.rockshassa.NicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>nicksPlugin</name>
+    <name>NicksPlugin</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-<!--    <repo>https://github.com/rockshassa/nicksPlugin.git</repo>-->
-    <issue>https://github.com/rockshassa/nicksPlugin</issue>
+    <repo>https://github.com/rockshassa/NicksPlugin.git</repo>
+    <issue>https://github.com/rockshassa/NicksPlugin</issue>
 
     <!-- ios -->
     <js-module src="www/plugin.js" name="plugin">
