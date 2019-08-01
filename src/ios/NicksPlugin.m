@@ -2,9 +2,10 @@
 
 #import <Cordova/CDVAvailability.h>
 
-@implementation MyCordovaPlugin
+@implementation NGNicksPlugin
 
 - (void)pluginInitialize {
+  NSLog(@"initialized plugin NGNicksPlugin...");
 }
 
 - (void)echo:(CDVInvokedUrlCommand *)command {
