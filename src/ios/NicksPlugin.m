@@ -12,7 +12,7 @@
     NSLog(@"objc echo called");
 
     NSString *echo = [command.arguments objectAtIndex:0];
-
+    CDVPluginResult *pluginResult;
     if (echo != nil && [echo length] > 0) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
     } else {
