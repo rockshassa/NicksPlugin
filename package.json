@@ -1,0 +1,27 @@
+{
+  "name": "nicksPlugin",
+  "version": "0.0.1",
+  "description": "Test plugin",
+  "cordova": {
+    "id": "nicksPlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockshassa/nicksPlugin"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "nick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockshassa/nicksPlugin"
+  },
+  "homepage": "https://github.com/rockshassa/nicksPlugin"
+}
