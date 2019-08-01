@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface NGNicksPlugin : CDVPlugin {
+@interface NicksPlugin : CDVPlugin {
 }
 
 - (void)echo:(CDVInvokedUrlCommand *)command;

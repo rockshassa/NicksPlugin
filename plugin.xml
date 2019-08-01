@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.rockshassa.nicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="com.rockshassa.NicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>nicksPlugin</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
-    <repo>https://github.com/rockshassa/nicksPlugin.git</repo>
+<!--    <repo>https://github.com/rockshassa/nicksPlugin.git</repo>-->
     <issue>https://github.com/rockshassa/nicksPlugin</issue>
 
     <!-- ios -->
     <js-module src="www/plugin.js" name="plugin">
         <runs/>
-        <clobbers target="nicksPlugin" />
+        <clobbers target="NicksPlugin" />
     </js-module>
     <config-file target="config.xml" parent="/*">
-        <feature name="nicksPlugin">
-            <param name="ios-package" value="nicksPlugin" onload="true" />
+        <feature name="NicksPlugin">
+            <param name="ios-package" value="NicksPlugin"/>
         </feature>
     </config-file>
     <header-file src="src/ios/NicksPlugin.h" />

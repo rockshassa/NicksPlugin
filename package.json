@@ -1,9 +1,9 @@
 {
-  "name": "nicksPlugin",
+  "name": "NicksPlugin",
   "version": "0.0.1",
   "description": "Test plugin",
   "cordova": {
-    "id": "nicksPlugin",
+    "id": "NicksPlugin",
     "platforms": [
       "ios"
     ]
