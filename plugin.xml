@@ -1,22 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="NicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>NicksPlugin</name>
-    <description></description>
-    <license>MIT</license>
-    <keywords></keywords>
-    <repo>https://github.com/rockshassa/NicksPlugin.git</repo>
-    <issue>https://github.com/rockshassa/NicksPlugin</issue>
-
-    <!-- ios -->
-    <js-module src="www/plugin.js" name="plugin">
-        <runs/>
-        <clobbers target="NicksPlugin" />
-    </js-module>
-    <config-file target="config.xml" parent="/*">
-        <feature name="NicksPlugin">
-            <param name="ios-package" value="NicksPlugin"/>
-        </feature>
-    </config-file>
-    <header-file src="src/ios/NicksPlugin.h" />
-    <source-file src="src/ios/NicksPlugin.m" />
-</plugin>
+<plugin id="NicksPlugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"><name>NicksPlugin</name><description /><license>MIT</license><keywords /><repo>https://github.com/rockshassa/NicksPlugin.git</repo><issue>https://github.com/rockshassa/NicksPlugin</issue><js-module name="plugin" src="www/plugin.js"><runs /><clobbers target="NicksPlugin" /></js-module><config-file parent="/*" target="config.xml"><feature name="NicksPlugin"><param name="ios-package" value="NicksPlugin" /></feature></config-file><header-file src="src/ios/NicksPlugin.h" /><source-file src="src/ios/NicksPlugin.m" /><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="NicksPlugin"><param name="ios-package" value="NicksPlugin" /></feature></config-file><source-file src="src/ios/NicksPlugin.m" /></platform></plugin>
