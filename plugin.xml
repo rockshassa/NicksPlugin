@@ -17,6 +17,6 @@
             <param name="ios-package" value="nicksPlugin" onload="true" />
         </feature>
     </config-file>
-    <header-file src="src/ios/NGNicksPlugin.h" />
-    <source-file src="src/ios/NGNicksPlugin.m" />
+    <header-file src="src/ios/NicksPlugin.h" />
+    <source-file src="src/ios/NicksPlugin.m" />
 </plugin>

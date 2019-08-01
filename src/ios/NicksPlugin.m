@@ -9,8 +9,8 @@
 }
 
 - (void)echo:(CDVInvokedUrlCommand *)command {
-  NSString* phrase = [command.arguments objectAtIndex:0];
-  NSLog(@"%@", phrase);
+    NSString* phrase = [command.arguments objectAtIndex:0];
+    [self.commandDelegate sendPluginResult:phrase callbackId:command.callbackId];
 }
 
 - (void)getDate:(CDVInvokedUrlCommand *)command {
